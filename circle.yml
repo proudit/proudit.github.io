@@ -9,7 +9,7 @@ test:
     - echo "All the tests are passed!!"
 
 deployment:
-  production: # just a label; label names are completely up to you
+  production: 
     branch: master
     commands:
       - aws s3 sync html/ s3://blog.proudit.jp/ --delete
