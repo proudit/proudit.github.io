@@ -1,0 +1,21 @@
+#main {
+  @include outer-container;
+
+  article {
+    @include media($medium-screen-up) {
+      @include span-columns(3);
+    }
+    @include media($large-screen-up) {
+      @include span-columns(6);
+    }
+  }
+  
+  aside {
+    @include media($medium-screen-up) {
+      @include span-columns(1);
+    }
+    @include media($large-screen-up) {
+      @include span-columns(2);
+    }
+  }
+}
