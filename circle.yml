@@ -3,11 +3,14 @@ machine:
     version: 2.1.2
 
 dependencies:
+    cache_directories:
+        - "vendor/bundle"
     override:
-        - sudo pip install awscli
-    post:
-        - aws configure set region ap-northeast-1
+        - bundle -j4 --path=vendor/bundle
         - bundle install
+    post:
+        - sudo pip install awscli
+        - aws configure set region ap-northeast-1
 test:
   override:
     - echo "All the tests are passed!!"
