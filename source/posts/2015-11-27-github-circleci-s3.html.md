@@ -2,6 +2,7 @@
 title: 静的HTML公開フローをサーバレスでDevOps！(Github,CircleCI,AWS S3)　前編
 date: 2015-11-27
 tags: aws,github,circleci,s3
+author: toguma
 ---
 
 

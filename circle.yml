@@ -12,9 +12,9 @@ deployment:
   production: 
     branch: master
     commands:
-      - aws s3 sync html/ s3://blog.proudit.jp/ --delete
+      - aws s3 sync build/ s3://blog.proudit.jp/ --delete
   staging:
     branch: staging
     commands:
-      - aws s3 sync html/ s3://blog.proudit.jp/ --delete
+      - aws s3 sync build/ s3://st.blog.proudit.jp/ --delete
 

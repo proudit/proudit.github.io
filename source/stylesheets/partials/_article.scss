@@ -42,6 +42,19 @@ body {
     padding-left: .5em;
   }
 
+ img {
+   border: 1px solid rgba( 0,0,0 , 0.1 ) 
+  }
+ 
+ img.author {
+  width: 30px;
+  height: 30px;
+  border: 0px
+}
+
+ img.mauthor {
+  border: 0px
+}
   .read-more {
     @include clearfix;
     a {

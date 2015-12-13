@@ -2,6 +2,7 @@
 # Blog settings
 ###
 
+
 # Time.zone = "UTC"
 
 activate :blog do |blog|
@@ -27,6 +28,8 @@ activate :blog do |blog|
   # blog.paginate = true
   # blog.per_page = 10
   # blog.page_link = "page/{num}"
+
+
 end
 
 page "/feed.xml", layout: false
@@ -72,11 +75,20 @@ page "/feed.xml", layout: false
 activate :livereload
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+ helpers do
+
+  def find_author(author_slug)
+    author_slug = author_slug.downcase
+    result = data.authors.select {|author| author.keys.first == author_slug }
+    raise ArgumentError unless result.any?
+    result.first
+  end
+
+  def author_path(author)
+    "/authors/#{author.keys.first}.html"
+  end
+
+ end
 
 set :css_dir, 'stylesheets'
 
@@ -100,6 +112,7 @@ set :markdown, hard_wrap: true, \
 # activate :syntax
 activate :rouge_syntax
 
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
@@ -116,7 +129,9 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+
 end
+
 
 ###
 # Site Settings
@@ -127,3 +142,21 @@ set :site_title, 'Proud Blog'
 set :site_description, 'Proudit Inc. Main Blog Site'
 
 Slim::Engine.disable_option_validator!
+
+set :fonts_dir,  "fonts"
+
+def articles_by_author(author)
+  sitemap.resources.select do |resource|
+  resource.data.author == author.name
+  end.sort_by { |resource| resource.data.date }
+end
+
+data.authors.collect {|author| author.keys.first }.each do |author_slug|
+  proxy "/authors/#{author_slug}.html",
+        '/authors/template.html',
+        locals: { author_slug: author_slug },
+        ignore: true
+end
+
+
+#activate :authors

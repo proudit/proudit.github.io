@@ -6,6 +6,7 @@ source 'https://rails-assets.org'
 gem 'middleman', '~> 3.4.0'
 gem 'middleman-blog', '~> 3.5.3'
 gem 'middleman-rouge', '~> 0.0.1'
+#gem 'middleman-blog-authors', '~> 0.0.1'
 
 # For syntax highlighting
 gem 'middleman-syntax', '~> 2.0.0'
@@ -32,5 +33,6 @@ gem 'bitters'
 
 # Rails Assets
 gem 'rails-assets-font-awesome', :require => false
+gem 'font-awesome-middleman', :require => false
 
 gem 'jquery-middleman', :require => false
