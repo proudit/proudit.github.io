@@ -88,6 +88,15 @@ activate :livereload
     "/authors/#{author.keys.first}.html"
   end
 
+  def get_taxonomies(slug = 'author_slug')
+    list = []
+    blog.articles.select{ |i| i.data[slug].present? }.each do |article|
+      list = list.push article.data[slug]
+    end
+
+    return list.inject(Hash.new(0)){|hash, a| hash[a] += 1; hash}
+  end
+
  end
 
 set :css_dir, 'stylesheets'

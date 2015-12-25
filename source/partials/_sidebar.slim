@@ -11,7 +11,7 @@ fieldset
   ol
     - data.authors[0...10].each do |authors|
       li
-        = link_to "#{authors.name}", author_path(authors)
+        = link_to "#{authors.keys.first}", author_path(authors)
 fieldset
   h2
     | Tags
