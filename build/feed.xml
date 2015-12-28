@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/2015/12/28/aws-waf-ipaddress.html"/>
     <id>http://blog.url.com/2015/12/28/aws-waf-ipaddress.html</id>
     <published>2015-12-28T09:00:00+09:00</published>
-    <updated>2015-12-28T13:47:01+09:00</updated>
+    <updated>2015-12-28T13:55:25+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -115,7 +115,7 @@ IP address、SQL injection、String matchingに関するアクセスの制御が
     <link rel="alternate" href="http://blog.url.com/2015/12/03/lambda-s3.html"/>
     <id>http://blog.url.com/2015/12/03/lambda-s3.html</id>
     <published>2015-12-03T09:00:00+09:00</published>
-    <updated>2015-12-18T16:46:05+09:00</updated>
+    <updated>2015-12-12T23:05:48+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -708,7 +708,7 @@ deployment:
     <link rel="alternate" href="http://blog.url.com/2015/11/27/github-circleci-s3.html"/>
     <id>http://blog.url.com/2015/11/27/github-circleci-s3.html</id>
     <published>2015-11-27T09:00:00+09:00</published>
-    <updated>2015-12-28T13:14:33+09:00</updated>
+    <updated>2015-12-28T13:02:17+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
