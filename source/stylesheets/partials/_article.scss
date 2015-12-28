@@ -1,5 +1,14 @@
 article {
 
+@media (max-width:480px){
+.share-box div{
+  float: none;
+  clear: both;
+  display: block;
+  margin-bottom: 5px;
+  }
+}
+
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -40,6 +49,12 @@ body {
 
   .posted-date {
     padding-left: .5em;
+  }
+
+ p.paginate {
+    text-align: right;
+    font-weight: bold;
+    color: #9370db;
   }
 
  img {
