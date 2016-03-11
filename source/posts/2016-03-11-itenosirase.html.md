@@ -17,7 +17,7 @@ author: toguma
 執務机です！！
 
 
-![机](../imges/20160311/shitumudesk.jpg)
+![机](./20160311/shitumudesk.jpg)
 
 素敵な贈り物、ありがとうございました。
 大切に使わせて頂きます！
