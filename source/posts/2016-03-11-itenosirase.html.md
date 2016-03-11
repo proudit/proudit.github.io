@@ -2,7 +2,7 @@
 title: 移転しました！
 date: 2016-03-11
 tags: お知らせ 
-author: 
+author: toguma
 ---
 
 3月よりオフィスを渋谷から新宿へ移転致しました。
