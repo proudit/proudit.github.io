@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/2016/03/28/how-to-use-docker-from-login-to-commit.html"/>
     <id>http://blog.url.com/2016/03/28/how-to-use-docker-from-login-to-commit.html</id>
     <published>2016-03-28T09:00:00+09:00</published>
-    <updated>2016-03-28T13:04:23+09:00</updated>
+    <updated>2016-03-28T13:41:25+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -130,7 +130,7 @@ loginは一度ログインしてしまえば不要ですが、複数アカウン
     <link rel="alternate" href="http://blog.url.com/2016/03/24/to-update-aws-cli.html"/>
     <id>http://blog.url.com/2016/03/24/to-update-aws-cli.html</id>
     <published>2016-03-24T09:00:00+09:00</published>
-    <updated>2016-03-28T12:45:04+09:00</updated>
+    <updated>2016-03-28T13:32:01+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -263,7 +263,7 @@ aws-cli/1.10.6 Python/2.7.10 Darwin/15.3.0 botocore/1.3.28
     <link rel="alternate" href="http://blog.url.com/2016/03/15/itenoiwai-next.html"/>
     <id>http://blog.url.com/2016/03/15/itenoiwai-next.html</id>
     <published>2016-03-15T09:00:00+09:00</published>
-    <updated>2016-03-23T23:24:03+09:00</updated>
+    <updated>2016-03-28T13:32:01+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -288,7 +288,7 @@ aws-cli/1.10.6 Python/2.7.10 Darwin/15.3.0 botocore/1.3.28
     <link rel="alternate" href="http://blog.url.com/2016/03/14/jawsdays2016.html"/>
     <id>http://blog.url.com/2016/03/14/jawsdays2016.html</id>
     <published>2016-03-14T09:00:00+09:00</published>
-    <updated>2016-03-23T23:24:03+09:00</updated>
+    <updated>2016-03-28T13:32:01+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -358,7 +358,7 @@ aws-cli/1.10.6 Python/2.7.10 Darwin/15.3.0 botocore/1.3.28
     <link rel="alternate" href="http://blog.url.com/2016/03/11/itenosirase.html"/>
     <id>http://blog.url.com/2016/03/11/itenosirase.html</id>
     <published>2016-03-11T09:00:00+09:00</published>
-    <updated>2016-03-23T23:24:03+09:00</updated>
+    <updated>2016-03-28T13:32:01+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -382,7 +382,7 @@ aws-cli/1.10.6 Python/2.7.10 Darwin/15.3.0 botocore/1.3.28
     <link rel="alternate" href="http://blog.url.com/2016/03/08/to-monitor-the-traffic-using-the-vnstat.html"/>
     <id>http://blog.url.com/2016/03/08/to-monitor-the-traffic-using-the-vnstat.html</id>
     <published>2016-03-08T09:00:00+09:00</published>
-    <updated>2016-03-08T12:49:19+09:00</updated>
+    <updated>2016-03-28T13:32:01+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
